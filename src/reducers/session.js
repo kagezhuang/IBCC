@@ -2,7 +2,7 @@ import { Map } from 'immutable';
 
 import { SESSION_ACTIONS } from '../actions/types';
 
-const initialState = Map({
+export const initialState = Map({
   username: null,
   fullname: null
 });
